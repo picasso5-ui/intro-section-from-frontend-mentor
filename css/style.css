@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    max-height: 100vh;
+}
+.logotxt{
+    color: gray;
+    font-size: 20px;
+}
+.navul li a{
+     margin-left: 5px;
+}
+.container{
+    margin-top: 100px;
+}
+.col1cont2{
+    display: none;
+}
+.registerbtn{
+padding:5px 20px ;
+border: 1px solid gray;
+color: gray !important;
+opacity: 0.4;
+}
+.container2{
+    display: none;
+}
+.header{
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: black;
+}
+.paragraph{
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.secbtn{
+    padding: 8px 30px;
+    margin-bottom: 70px;
+    font-weight: 400;
+    background-color: black;
+    border-radius: 10px;
+    color: ghostwhite;
+}
+a:hover{
+color: white;
+}
+.imagecol1{
+     width: 60px;
+     height: auto;
+     margin-left: 20px;
+}
+.hero-mobile{
+    display: none;
+}
+.imghero{
+    display: none;
+}
+.img2{
+  width: 500px;
+  height: 400px;
+  display: block;
+  margin-bottom: 80px;
+background-size: cover;  
+}
+
+
+
+
+
+/* media query*/
+@media screen  and (max-width:600px){
+    
+   body{
+       font-family: Arial, Helvetica, sans-serif;
+   }
+    
+    .col1cont{
+        display: none;
+    }
+    .imghero{
+        display: block;
+        width: 350px;
+    }
+
+    .img2{
+        display: none !important;
+    }
+    .col1cont2{
+        display: block;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .secbtn{
+        margin-bottom: 30px;
+    }
+    .header{
+        font-size: 30px;
+        font-weight: 6005
+        ;
+    }
+    .imagecol1{
+        margin-bottom: 40px;
+        margin-left: 0;
+    }
+    .snap{
+        width: 50px;
+    }
+   .paragraph{
+    font-size: 16px;
+    font-weight: 600;
+   }
+
+}
